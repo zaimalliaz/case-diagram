@@ -1,5 +1,5 @@
-# case-diagram
-# Crafting a strategic approach to combatting fake news model
+
+# Crafting a Strategic Approach to Combatting Fake News Model
 
 ```mermaid
 flowchart LR
