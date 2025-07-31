@@ -3,9 +3,9 @@
 
 ```mermaid
 flowchart TD
-    Title["Amplify Fake News Impact through Scaled Collaboration"]
+    title["📢 Amplify Fake News Impact<br>through Scaled Collaboration"]
 
-    subgraph Macro_Level["Key Relationships"]
+    subgraph A["🔗 Key Relationships"]
         A1["State Transitions"]
         A2["Event Traces"]
         A3["Resource Matrices"]
@@ -13,13 +13,15 @@ flowchart TD
         A5["Forecast Evolution"]
     end
 
-    subgraph Core_Components["Core Components"]
+    subgraph B["🧱 Core Components"]
         B1["Macro Level Context"]
         B2["Functionality Requirements"]
         B3["Capabilities"]
         B4["Operational Scenarios"]
     end
 
-    Title --> Macro_Level
-    Title --> Core_Components
+    title --> A
+    title --> B
 
+    A --> A1 --> A2 --> A3 --> A4 --> A5
+    B --> B1 --> B2 --> B3 --> B4
